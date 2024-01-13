@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+table {
+    margin: 10px auto;
+}
+
+td:hover{
+background-color: lightskyblue;
+cursor: pointer;
+}
+
+table, td {
+    border: 1px solid black
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: "montserrat";
+}
+
+button:hover{
+    background-color: lightskyblue;
+}
+
+.game{
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 1rem skyblue;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    /* margin: 1rem; */
+    display: inline-block;
+}

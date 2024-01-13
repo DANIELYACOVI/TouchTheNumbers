@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch The Numbers</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload="onLevelSelect(16)">
+
+    <h1>Touch The Numbers ♾️</h1>
+    
+    
+    <div class="game">
+        
+        Game Level:
+        <button class="hover" onClick="onLevelSelect(16)" >16</button>
+        <button class="hover" onClick="onLevelSelect(25)" >25</button>
+        <button class="hover" onClick="onLevelSelect(36)" >36</button>
+        <button class="hover" onClick="onLevelSelect(49)" >49</button>
+        <button class="hover" onClick="onLevelSelect(100)" >100</button>
+        <br>
+
+        <button class="middle-buttons next-num"></button>
+        <button class="timer"></button>
+        <button onclick="onRestart()" class="hover middle-buttons">Restart</button>
+        </div>
+
+        <table>
+            <br>
+            <tbody class="board"></tbody>
+        </table>
+    <script src="js/main.js"></script>
+    <script src="js/unit.js"></script>
+</body>
+</html>
+ 
